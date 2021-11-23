@@ -4,9 +4,9 @@ const assertEqual = function(actual, expected) {
   let valB = expected;
 
   if (valA === valB) {
-    console.log(`\uD83D\uDE00 \uD83D\uDE00 \uD83D\uDE4F Assertion Passed: $[valA] === $[valB]`);
+    console.log(`\uD83D\uDE00 \uD83D\uDE00 \uD83D\uDE4F Assertion Passed: ${valA} === ${valB}`);
   } else {
-    console.log(`Assertion Failed: $[valA] !=== $[valB]`);
+    console.log(`Assertion Failed: ${valA} !=== ${valB}`);
   }
 };
 
