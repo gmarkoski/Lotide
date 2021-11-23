@@ -7,26 +7,11 @@ const assertEqual = function(actual, expected) {
   } else {
     console.log(`Assertion Failed: ${valA} !=== ${valB}`);
   }
-}
+};
 function head(array) {
   return array[0];
 }
-/*
-// Tristan's code:
-function assertEqual(actual, expected) {
-  let valueA = actual;
-  let valueB = expected;
 
-  if (valueA === valueB) {
-    console.log(`\uD83D\uDE00 \uD83D\uDE00 \uD83D\uDE4F Assertion Passed: ${valueA} === ${valueB}`);
-  } else {
-    console.log(`Assertion Failed: ${valueA} !=== ${valueB}`);
-  }
-}
-function head(array) {
-  return array[0];
-}
-*/
 
 
 // TEST CODE
