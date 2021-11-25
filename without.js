@@ -30,7 +30,7 @@ const without = function(source, itemsToRemove) {
 
   for (let i = 0; i <= source.length; i++) {
     if (source[i] !== itemsToRemove[i]) {
-      missingItems.push(source[i])
+      missingItems.push(source[i]);
     }
   }
   return missingItems;

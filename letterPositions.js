@@ -26,21 +26,15 @@ const eqArrays = function (Arr1, Arr2) {
 
 const letterPositions = function (sentence) {
   let results = {};
-  // let characters = new Map();
-
-  // for (const key of sentence) {    // initialize to run through the sentence
-  //   if (key !== ' ')
-  //     characters.set(key, count);
-  // }
-
-  for (let i = 0; i < sentence.length; i++) {           //count the # of times that the character occurs
+ 
+  for (let i = 0; i < sentence.length; i++) {
     let position = i;
-    let letter = sentence[i]
+    let letter = sentence[i];
 
     if (letter !== ' ') {
 
       if (results[letter]) {
-        results[letter].push(i)
+        results[letter].push(i);
       } else {
         results[letter] = [i];
       }
