@@ -9,7 +9,7 @@ const assertEqual = function (actual, expected) {
   }
 };
 
-const countLetters = function (arr) {
+const countLetters = function(arr) {
   let count = 0;
   let characters = new Map();
   for (const key of arr) {
@@ -19,7 +19,7 @@ const countLetters = function (arr) {
 
   for (const key of arr) {           //count the # of times that the character occurs
     let count = characters.get(key);
-    if (key !== ' ')
+    if (key !== ' ')                        //gets rid of the space character
       characters.set(key, count + 1);
 
     for (const [key, value] of characters) {    //output
