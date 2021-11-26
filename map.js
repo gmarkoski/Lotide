@@ -13,7 +13,7 @@ const eqArrays = function(Arr1, Arr2) {
   return true;
 };
 
-const map = function (array, callback) {
+const map = function(array, callback) {
   const results = [];
   for (let item of array) {
     
@@ -21,7 +21,7 @@ const map = function (array, callback) {
   }
   return results;
 };
-const whatever = function (value) {
+const whatever = function(value) {
   return `I have ${value}`;
 };
 
