@@ -1,4 +1,4 @@
-const eqObjects = function (object1, object2) {
+const eqObjects = function(object1, object2) {
   let arr1 = Object.entries(object1);
   let arr2 = Object.entries(object2);
  // [a, b] => Object.keys
@@ -40,4 +40,4 @@ const assertObjectsEqual = function(actual, expected) {
 
 //With this problem resolved, you should see more detailed object output to the console:
 // ✅✅✅ Assertion Passed: { a: '1', b: 2 } === { b: 2, a: '1' }
- assertObjectsEqual({ a: '1', b: 2 }, { b: 2, a: '2' });
+assertObjectsEqual({ a: '1', b: 2 }, { b: 2, a: '2' });
